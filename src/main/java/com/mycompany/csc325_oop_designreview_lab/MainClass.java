@@ -15,7 +15,7 @@ public class MainClass {
 
 		// ToDo 6: Fix the constructor of the Student class - Done
 
-                // Todo 7: Create two classes for Freshman and Senior 
+                // Todo 7: Create two classes for Freshman and Senior - Done
 
                 // ToDo 8: The senior class should have a minimum of 85 credits  
 
@@ -24,9 +24,9 @@ public class MainClass {
 
                 // ToDo 11: Add a toString method for the Senior class
 
-		Freshman std1= new Freshman("James", 20, 12); // name, age, credits
+		Freshman std1= new Freshman("James", (short) 20, 12); // name, age, credits
 
-                Senior std2 = new Senior("John", 30, 90);
+                Senior std2 = new Senior("John", (short) 30, 90);
 
 		// ToDo 12: Set the gpa of the student using the scanner and user
 		// 			input and then print the output.
