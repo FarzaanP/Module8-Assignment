@@ -4,6 +4,8 @@
 
 package com.mycompany.csc325_oop_designreview_lab;
 
+import java.util.Scanner;
+
 /**
  *
  * @author MoaathAlrajab
@@ -25,16 +27,26 @@ public class MainClass {
 
                 // ToDo 11: Add a toString method for the Senior class - Done
 
-		Freshman std1= new Freshman("James", (short) 20, 12); // name, age, credits
 
-                Senior std2 = new Senior("John", (short) 30, 90);
+
+	 Freshman std1= new Freshman("James", (short) 20, 12); // name, age, credits
+
+	 Senior std2 = new Senior("John", (short) 30, 90);
 
 		// ToDo 12: Set the gpa of the student using the scanner and user
-		// 			input and then print the output.
-
-		System.out.println(std1);
-
-                System.out.println(std2);
+		// 			input and then print the output. - Done
+	 // asks the user for student 1 gpa
+	 Scanner scanner = new Scanner(System.in);
+	 System.out.print("Enter GPA for " + std1.getName() + ": ");
+	 double gpa1 = scanner.nextDouble();
+	 std1.setGpa(gpa1);
+	// asks the user for student 2 gpa
+	 System.out.print("Enter GPA for " + std2.getName() + ": ");
+	 double gpa2 = scanner.nextDouble();
+	 std2.setGpa(gpa2);
+	// prints out output
+	 System.out.println(std1);
+	 System.out.println(std2);
 
 		// ToDo 13: add comments and explain your code
 
