@@ -12,7 +12,9 @@ package com.mycompany.csc325_oop_designreview_lab;
 public class Student extends Human{
 	// ToDo 1: Make this class a child of Human - Done
 
-// added the two abstract methods from Human class
+    private double gpa;
+
+    // added the two abstract methods from Human class
     @Override
     public String getAddress() {
         return "Unknown";
@@ -21,10 +23,16 @@ public class Student extends Human{
     @Override
     public void setAddress(String address) {
     }
-
-	// ToDo 2: Fix the resulting errors
-
-	// ToDo 3: Add a field for GPA and create a setter and a getter
+    // ToDo 2: Fix the resulting errors - Done
+    // returns the students gpa
+    public double getGpa() {
+        return gpa;
+    }
+    //  this sets the students GPA.
+    public void setGpa(double gpa) {
+        this.gpa = gpa;
+    }
+    // ToDo 3: Add a field for GPA and create a setter and a getter - Done
 	
 	// ToDo 4: Add comments to your code
 }
