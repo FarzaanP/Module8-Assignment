@@ -19,7 +19,8 @@ public class MainClass {
 
                 // ToDo 8: The senior class should have a minimum of 85 credits - Done
 
-		// ToDo 9: Add a toString method for the Student class
+		// ToDo 9: Add a toString method for the Student class - Done
+
 		// ToDo 10: Add a toString method for the Freshman class
 
                 // ToDo 11: Add a toString method for the Senior class

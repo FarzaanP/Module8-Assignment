@@ -49,6 +49,12 @@ public class Student extends Human{
         this.credits = credits;
     }
     // ToDo 3: Add a field for GPA and create a setter and a getter - Done
-	
-	// ToDo 4: Add comments to your code - Done
+    // gives a string with the student's info
+    @Override
+    public String toString() {
+        return "Student{name='" + getName() + "', age=" + getAge()
+                + ", credits=" + credits + ", gpa=" + gpa + "}";
+    }
+
+    // ToDo 4: Add comments to your code - Done
 }
