@@ -11,9 +11,9 @@ package com.mycompany.csc325_oop_designreview_lab;
 public class MainClass {
 
  public static void main(String[] args) {
-		// ToDo 5: Fix the error
+		// ToDo 5: Fix the error - Done
 
-		// ToDo 6: Fix the constructor of the Student class
+		// ToDo 6: Fix the constructor of the Student class - Done
 
                 // Todo 7: Create two classes for Freshman and Senior 
 

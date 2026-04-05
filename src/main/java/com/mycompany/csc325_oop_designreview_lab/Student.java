@@ -13,6 +13,14 @@ public class Student extends Human{
 	// ToDo 1: Make this class a child of Human - Done
 
     private double gpa;
+    private int credits;
+
+    //this constructor takes name, age, and credits
+    public Student(String name, short age, int credits) {
+        super(name, age);
+        this.credits = credits;
+        this.gpa = 0.0;
+    }
 
     // added the two abstract methods from Human class
     @Override
@@ -31,6 +39,14 @@ public class Student extends Human{
     //  this sets the students GPA.
     public void setGpa(double gpa) {
         this.gpa = gpa;
+    }
+    // getter and setter for credits
+    public int getCredits() {
+        return credits;
+    }
+
+    public void setCredits(int credits) {
+        this.credits = credits;
     }
     // ToDo 3: Add a field for GPA and create a setter and a getter - Done
 	
