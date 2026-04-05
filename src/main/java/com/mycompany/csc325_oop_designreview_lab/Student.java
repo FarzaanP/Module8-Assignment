@@ -34,5 +34,5 @@ public class Student extends Human{
     }
     // ToDo 3: Add a field for GPA and create a setter and a getter - Done
 	
-	// ToDo 4: Add comments to your code
+	// ToDo 4: Add comments to your code - Done
 }
