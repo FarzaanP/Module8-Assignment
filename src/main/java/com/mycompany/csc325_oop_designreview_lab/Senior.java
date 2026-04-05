@@ -13,4 +13,10 @@ public class Senior extends Student {
         }
 
     }
+    // returns senior info in a string
+    @Override
+    public String toString() {
+        return "Senior{name='" + getName() + "', age=" + getAge()
+                + ", credits=" + getCredits() + ", gpa=" + getGpa() + "}";
+    }
 }

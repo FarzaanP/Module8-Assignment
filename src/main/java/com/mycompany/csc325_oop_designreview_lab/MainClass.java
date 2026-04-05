@@ -21,9 +21,9 @@ public class MainClass {
 
 		// ToDo 9: Add a toString method for the Student class - Done
 
-		// ToDo 10: Add a toString method for the Freshman class
+		// ToDo 10: Add a toString method for the Freshman class - Done
 
-                // ToDo 11: Add a toString method for the Senior class
+                // ToDo 11: Add a toString method for the Senior class - Done
 
 		Freshman std1= new Freshman("James", (short) 20, 12); // name, age, credits
 
