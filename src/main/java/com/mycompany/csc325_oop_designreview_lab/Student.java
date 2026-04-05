@@ -8,8 +8,19 @@ package com.mycompany.csc325_oop_designreview_lab;
  *
  * @author MoaathAlrajab
  */
-public class Student {
-	// ToDo 1: Make this class a child of Human
+//extended the class to Humans
+public class Student extends Human{
+	// ToDo 1: Make this class a child of Human - Done
+
+// added the two abstract methods from Human class
+    @Override
+    public String getAddress() {
+        return "Unknown";
+    }
+
+    @Override
+    public void setAddress(String address) {
+    }
 
 	// ToDo 2: Fix the resulting errors
 
